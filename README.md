@@ -29,6 +29,15 @@ google-drive-mcp-server/
 ├── .gitignore
 └── README.md
 
+## 🔑 Setup
+
+1. Create a Google Cloud project
+2. Enable Google Drive API
+3. Generate OAuth2 Desktop credentials
+4. Save them as: credentials.json (do NOT upload this file)
+5. Run the server once to generate token.pickle
+
+
 🧰 Installation
 git clone https://github.com/Arpit-saxena-2004/google-drive-mcp-server.git
 cd google-drive-mcp-server
